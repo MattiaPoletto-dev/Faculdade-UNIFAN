@@ -11,6 +11,7 @@ posição (ou índice), ou seja: B[i] = A[i] * i.
 */
 
 int main(int argc, char const *argv[]) {
+    
     setlocale(LC_ALL,"portuguese");
     
     int a[10];
@@ -29,6 +30,4 @@ int main(int argc, char const *argv[]) {
     }
     printf("\n");
     system("pause");
-
-    return 0;
 }
