@@ -1,3 +1,4 @@
+FIAT
 carro(fiat, 'cronos drive 1.3', 2026, 95000, sedan, manual, flex, 13.5, 107).
 carro(fiat, 'fastback turbo 200', 2026, 140000, suv, automatico, flex, 12.5, 130).
 carro(fiat, 'pulse drive 1.3', 2026, 110000, suv, automatico, flex, 13.5, 107).
@@ -24,6 +25,7 @@ carro(fiat, 'cronos drive 1.3 at', 2026, 105000, sedan, automatico, flex, 13.5, 
 carro(fiat, 'toro endurance turbo 270', 2026, 175000, picape, automatico, flex, 10.5, 185).
 carro(fiat, 'toro ranch turbodiesel 4x4', 2026, 210000, picape, automatico, diesel, 10.0, 170).
 
+FORD
 carro(ford, 'maverick', 2025, 150000, picape, automatico, flex, 12.0, 130).
 carro(ford, 'ranger', 2025, 170000, picape, automatico, flex, 11.5, 185).
 carro(ford, 'ranger raptor', 2025, 200000, picape, automatico, flex, 10.5, 250).
@@ -40,3 +42,63 @@ carro(ford, 'ka', 2025, 70000, hatch, manual, flex, 14.5, 100).
 carro(ford, 'transit', 2025, 180000, comercial, manual, diesel, 8.0, 130).
 carro(ford, 'transit minibus', 2025, 220000, comercial, manual, diesel, 7.5, 130).
 carro(ford, 'transit furgao', 2025, 200000, comercial, manual, diesel, 8.0, 130).
+
+HONDA
+carro(Honda, City Hatchback, 2025, R$ 113.600, Hatchback, Flex(Gasolina/Etanol), 14,05 km/l (Média Gasolina), 126 cv, CVT)
+carro(Honda, City Sedan, 2025, R$ 115.300, Sedan, Flex(Gasolina/Etanol), 14,05 km/l (Média Gasolina), 126 cv, CVT)
+carro(Honda, HR-V, 2025, R$ 152.700, SUV, Flex (Gasolina/Etanol),13,3 km/l (Média Gasolina), 126 cv, CVT)
+carro(Honda, ZR-V, 2025, R$ 214.500, SUV, Gasolina, 11,15 km/l(Média Gasolina), 161 cv, CVT)
+carro(Honda, Civic Híbrido, 2025, R$ 265.900, Sedan, Híbrido(Gasolina/Elétrico), 17,1 km/l (Média Gasolina), 184 cv (combinada),e-CVT)
+carro(Honda, CR-V Híbrido, 2025, R$ 352.900, SUV, Híbrido(Gasolina/Elétrico), 12,9 km/l (Média Gasolina), 207 cv (combinada),e-CVT)
+carro(Honda, Civic Type R, 2025, R$ 429.900, Hatchback Esportivo,Gasolina, 9,95 km/l (Média Gasolina), 297 cv, Manual (6 marchas))
+
+NISSAN
+carro(Nissan, Kicks Play (1.6), 2025, R$ 117.990, SUV, Flex(Gasolina/Etanol), 12,5 km/l (Média Gasolina), 113 cv, CVT)
+carro(Nissan, Versa, 2025, R$ 117.990, Sedan, Flex(Gasolina/Etanol), 13,25 km/l (Média Gasolina), 113 cv, CVT)
+carro(Nissan, Kicks (1.0T), 2025, R$ 166.990, SUV, Flex(Gasolina/Etanol), 13,0 km/l (Média Gasolina), 125 cv, CVT)
+carro(Nissan, Sentra, 2025, R$ 174.490, Sedan, Gasolina, 12,45 km/l(Média Gasolina), 151 cv, CVT)
+carro(Nissan,Frontier,2025,R$277.590,Picape,Diesel,10,15km/l(MédiaDiesel),190cv,Automático(7marchas))
+
+CHEVROLET
+carro(Chevrolet,Onix,2025,Hatch,85000,Automático,Flex,13.5km/l,116cv)
+carro(Chevrolet,Onix Plus,2025,Sedan,92000,Automático,Flex,13.3km/l,116cv)
+carro(Chevrolet,Tracker,2025,SUV,119000,Automático,Flex,12.5km/l,133cv)
+carro(Chevrolet,Equinox,2025,SUV,210000,Automático,Gasolina,10.4km/l,172cv)
+carro(Chevrolet,Montana,2025,Picape,145000,Automático,Flex,11.7km/l,133cv)
+carro(Chevrolet,S10,2025,Picape,270000,Automático,Diesel,9.2km/l,200cv)
+carro(Chevrolet,Trailblazer,2025,SUV,370000,Automático,Diesel,8.9km/l,200cv)
+carro(Chevrolet,Spin,2025,Minivan,115000,Automático,Flex,11.8km/l,110cv)
+carro(Chevrolet,Camaro,2025,Esportivo,520000,Automático,Gasolina,6.5km/l,461cv)
+
+MITSUBISHI
+carro(Mitsubishi,Outlander,2025,SUV,270000,Automático,Híbrido,20.0km/l,240cv)
+carro(Mitsubishi,Outlander Sport,2025,SUV,160000,Automático,Flex,11.2km/l,170cv)
+carro(Mitsubishi,Eclipse Cross,2025,SUV,175000,Automático,Flex,10.8km/l,165cv)
+carro(Mitsubishi,L200 Triton,2025,Picape,260000,Automático,Diesel,9.5km/l,190cv)
+carro(Mitsubishi,Pajero Sport,2025,SUV,340000,Automático,Diesel,8.5km/l,190cv)
+
+RENAULT
+carro(Renault,Kwid,2025,Hatch,77240,Manual,Flex,15.3km/l,71cv).
+carro(Renault,Kwid_e_Tech,2026,Hatch,149000,Automatico,Eletrico,0km/l,65cv).
+carro(Renault,Duster,2026,SUV,141990,Manual,Flex,11.2km/l,120cv).
+carro(Renault,Duster,2026,SUV,176990,CVT,Flex,11.5km/l,170cv).
+carro(Renault,Kangoo,2026,Van,130690,Manual,Flex,11.3km/l,115cv).
+carro(Renault,Kardian,2026,SUV,113690,Manual,Flex,12.7km/l,125cv).
+carro(Renault,Kardian,2026,SUV,149990,DCT,Flex,12.8km/l,125cv).
+carro(Renault,Boreal,2026,SUV,179990,DCT,Flex,12.0km/l,170cv).
+carro(Renault,Master,2026,Van,248710,Manual,Diesel,8.0km/l,136cv).
+carro(Renault,Captur,2024,SUV,142990,CVT,Flex,10.8.3km/l,170cv).
+carro(Renault,Oroch,2025,Picape,126990,Manual,Flex,11.1km/l,120cv).
+carro(Renault,Oroch,2025,Picape,156970,CVT,Flex,11.3km/l,170cv).
+carro(Renault,Sandero,2024,Hatch,83190,Manual,Flex,11.5km/l,82cv).
+carro(Renault,Logan,2025,Sedan,97500,Manual,Flex,13.6km/l,82cv).
+carro(Renault,Stepway,2025,Hatch,86990,Manual,Flex,11.5km/l,82cv).
+carro(Renault,Megane,2025,SUV,279900,Automatico,Eletrico,0km/l,220cv).
+
+HYUNDAI
+carro(Hyundai,HB20,2025,Hatch,93310,Manual,Flex,13.4km/l,80cv).
+carro(Hyundai,HB20S,2026,Sedan,103090,Manual,Flex,12.5km/l,80cv).
+carro(Hyundai,Creta,2026,SUV,151290,Automatico,Flex,12.0km/l,120cv).
+carro(Hyundai,Tucson,2025,SUV,199490,Automatico,Gasolina,10.6km/l,177cv).
+carro(Hyundai,Kona,2025,SUV,214990,DCT,Hibrido,18.4km/l,141cv).
+carro(Hyundai,Palisade,2026,SUV,479990,Automatico,Gasolina,7.3km/l,295cv).
