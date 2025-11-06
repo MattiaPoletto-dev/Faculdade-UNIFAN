@@ -1,0 +1,42 @@
+carro(fiat, 'cronos drive 1.3', 2026, 95000, sedan, manual, flex, 13.5, 107).
+carro(fiat, 'fastback turbo 200', 2026, 140000, suv, automatico, flex, 12.5, 130).
+carro(fiat, 'pulse drive 1.3', 2026, 110000, suv, automatico, flex, 13.5, 107).
+carro(fiat, 'pulse turbo 200', 2026, 130000, suv, automatico, flex, 12.0, 130).
+carro(fiat, 'strada endurance cabine plus 1.3', 2026, 95000, picape, manual, flex, 12.5, 107).
+carro(fiat, 'pulse drive 1.3', 2026, 105000, suv, manual, flex, 13.5, 107).
+carro(fiat, 'fastback audace turbo 200 hybrid', 2026, 150000, suv, automatico, 'flex', 13.0, 130).
+carro(fiat, 'fastback impetus turbo 200 hybrid', 2026, 160000, suv, automatico, 'flex', 13.0, 130).
+carro(fiat, 'pulse impetus turbo 200 hybrid', 2026, 145000, suv, automatico, 'flex', 13.0, 130).
+carro(fiat, 'fastback limited edition turbo 270', 2025, 170000, suv, automatico, flex, 11.5, 185).
+carro(fiat, 'argo drive 1.0', 2026, 85000, hatch, manual, flex, 14.0, 75).
+carro(fiat, 'toro volcano turbodiesel 4x4 at9', 2026, 210000, picape, automatico, diesel, 10.0, 170).
+carro(fiat, 'argo 1.0', 2026, 83000, hatch, manual, flex, 14.0, 75).
+carro(fiat, 'mobi like 1.0', 2026, 72000, hatch, manual, flex, 15.0, 74).
+carro(fiat, 'pulse abarth turbo 270', 2026, 150000, suv, automatico, flex, 11.5, 185).
+carro(fiat, 'fastback abarth turbo 270', 2025, 165000, suv, automatico, flex, 11.5, 185).
+carro(fiat, 'fiorino endurance 1.3', 2026, 98000, furgão, manual, flex, 11.0, 107).
+carro(fiat, 'titano ranch multijet turbodiesel', 2026, 230000, picape, automatico, diesel, 9.5, 180).
+carro(fiat, 'toro volcano turbo 270', 2026, 175000, picape, automatico, flex, 10.5, 185).
+carro(fiat, 'strada freedom cabine plus 1.3', 2026, 99000, picape, manual, flex, 12.5, 107).
+carro(fiat, 'cronos drive 1.0', 2026, 72000, sedan, manual, flex, 15.0, 75).
+carro(fiat, 'novo ducato cargo 11,5m 2.2', 2026, 180000, furgão, manual, diesel, 9.0, 120).
+carro(fiat, 'cronos drive 1.3 at', 2026, 105000, sedan, automatico, flex, 13.5, 107).
+carro(fiat, 'toro endurance turbo 270', 2026, 175000, picape, automatico, flex, 10.5, 185).
+carro(fiat, 'toro ranch turbodiesel 4x4', 2026, 210000, picape, automatico, diesel, 10.0, 170).
+
+carro(ford, 'maverick', 2025, 150000, picape, automatico, flex, 12.0, 130).
+carro(ford, 'ranger', 2025, 170000, picape, automatico, flex, 11.5, 185).
+carro(ford, 'ranger raptor', 2025, 200000, picape, automatico, flex, 10.5, 250).
+carro(ford, 'f-150 tremor', 2025, 250000, picape, automatico, flex, 9.0, 400).
+carro(ford, 'territory', 2025, 212000, suv, automatico, flex, 13.0, 150).
+carro(ford, 'bronco sport', 2025, 180000, suv, automatico, flex, 12.5, 253).
+carro(ford, 'everest', 2025, 220000, suv, automatico, flex, 11.0, 250).
+carro(ford, 'expedition', 2025, 300000, suv, automatico, flex, 10.0, 400).
+carro(ford, 'eco sport', 2025, 95000, suv, manual, flex, 14.0, 120).
+carro(ford, 'fusion', 2025, 130000, sedan, automatico, flex, 13.5, 190).
+carro(ford, 'mustang', 2025, 300000, sedan, manual, flex, 9.0, 500).
+carro(ford, 'fiesta', 2025, 85000, hatch, manual, flex, 15.0, 120).
+carro(ford, 'ka', 2025, 70000, hatch, manual, flex, 14.5, 100).
+carro(ford, 'transit', 2025, 180000, comercial, manual, diesel, 8.0, 130).
+carro(ford, 'transit minibus', 2025, 220000, comercial, manual, diesel, 7.5, 130).
+carro(ford, 'transit furgao', 2025, 200000, comercial, manual, diesel, 8.0, 130).
