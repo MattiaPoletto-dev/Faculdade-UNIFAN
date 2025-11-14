@@ -1,0 +1,160 @@
+Relatório do software: "gerenciador_de_hospital"
+
+Estruturas do software:
+ - Usuario:
+    char login[20];
+    char senha[30];
+    char tipo[20];
+
+ - Medico:
+    char login[20];
+    char nome[50];
+    char especialidade[20];
+    char crm[15];
+
+ - Enfermeiro:
+    char login[20];
+    char nome[50];
+    char especialidade[20];
+    char coren[15];
+
+ - Recepcionista:
+    char login[20];
+    char nome[50];
+
+ - Paciente:
+    char nome[50];
+    int idade;
+    char sexo[2];
+    int prioridade;
+    char diagnostico[100];
+    bool alocadoLeito;
+
+ - Leito:
+    char nome[50];
+    char paciente[50];
+
+
+Funções principais do software:
+ • credenciais()
+   - Função: Solicita o login e a senha do usuário e valida-o.
+   
+ • criarUsuarioPadrao()
+   - Função: Caso não tenha nenhum usuário cadastrado, ele cria o usuário admin.
+
+ • jsonParaStructs()
+   - Função: Passa todos os dados armazenados no JSON para as structs do software.
+   
+ • lerSenhaComMascara()
+   - Função: Faz com que quando a senha for digitada, ela não fique a mostra.
+   
+   
+ • menuADM()
+   - Função: Mostrar o menu e as opções de escolha para o Usuário admin.
+   - Usuários que podem usá-la: admin.
+
+ • menuMEDICO()
+   - Função: Mostra o menu e as opções de escolha para o Usuário medico.
+   - Usuários que podem usá-la: medico.
+   
+ • menuENFERMEIRO()
+   - Função: Mostra o menu e as opções de escolha para o Usuário enfermeiro.
+   - Usuários que podem usá-la: enfermeiro.
+   
+ • menuRECEPCIONISTA()
+   - Função: Mostra o menu e as opções de escolha para o Usuário recepcionista.
+   - Usuários que podem usá-la: recepcionista.   
+
+
+ • cadastrarMedico()
+  - Função: Cadastra um usuário medico com todos os seus dados.
+  - Usuários que podem usá-la: admin.
+   
+ • cadastrarEnfermeiro()
+  - Função: Cadastra um usuário enfermeiro com todos os seus dados.
+  - Usuários que podem usá-la: admin.
+   
+ • cadastrarRecepcionista()
+  - Função: Cadastra um usuário recepcionista com todos os seus dados.
+  - Usuários que podem usá-la: admin.  
+  
+ • excluirMedico()
+  - Função: Exclui um Usuário medico da base de dados.
+  - Restrição:
+      • Deve haver ao menos um usuário medico cadastrado.
+  - Usuários que podem usá-la: admin.
+  
+ • excluirEnfermeiro()
+  - Função: Exclui um Usuário enfermeiro da base de dados.
+  - Restrição:
+      • Deve haver ao menos um usuário enfermeiro cadastrado.
+  - Usuários que podem usá-la: admin.
+  
+ • excluirRecepcionista()
+  - Função: Exclui um Usuário recepcionista da base de dados.
+  - Restrição:
+      • Deve haver ao menos um usuário recepcionista cadastrado.
+  - Usuários que podem usá-la: admin.
+  
+ • verUsuarios()
+  - Função: Mostra as informações dos usuários.
+  - Restrição:
+      • Deve haver ao menos um usuário cadastrados, além do admin.
+  - Usuários que podem usá-la: admin.
+  
+
+ • cadastrarPaciente()
+  - Função: Cadastra um paciente com todos os seus dados.
+  - Usuários que podem usá-la: admin, recepcionista.
+  
+ • excluirPaciente()
+  - Função: Exclui um paciente da base de dados.
+  - Restrição:
+      • Deve haver paciente cadastrado.
+  - Usuários que podem usá-la: admin, recepcionista.
+  
+ • verPacientes()
+  - Função: Mostra as informações dos pacientes.
+  - Restrição:
+      • Deve haver paciente cadastrado.
+  - Usuários que podem usá-la: admin, medico, enfermeiro, recepcionista.
+  
+
+ • criarLeito()
+  - Função: Cria um leito.
+  - Usuários que podem usá-la: admin.
+  
+ • excluirLeito()
+  - Função: Exclui um leito.
+  - Restrição:
+      • Deve haver leitos cadastrados.
+  - Usuários que podem usá-la: admin.
+  
+ • verLeitos()
+  - Função: Mostra os leitos existentes.
+  - Restrição:
+      • Deve haver leitos cadastrados.
+  - Usuários que podem usá-la: admin, medico, enfermeiro.
+  
+ • alocarPacienteAoLeito()
+  - Função: Aloca o paciente ao leito mudando informações sobre eles.
+  - Restrição:
+      • Deve haver leitos e pacientes cadastr
+      • O paciente não pode estar alocado.
+      • O leito deve estar vazio.
+  - Usuários que podem usá-la: admin, enfermeiro.
+  
+ • desalocarPacienteDoLeito()
+  - Função: Desaloca o paciente do leito mudando informações sobre eles.
+  - Restrição:
+      • Deve gaver keutis e pacientes cadastrados.
+      • O paciente deve estar alocado em um leito.
+  - Usuários que podem usá-la: admin, enfermeiro.
+  
+ • darAlta:
+  - Função: Remove o paciente da base de dados e o leito passa a ser "vazio".
+  - Restrição:
+      • Deve haver leitos e pacientes cadastrados.
+      • O paciente deve estar alocado em um leito.
+  - Usuários que podem usá-la: admin, medico.
+  
